@@ -1,82 +1,85 @@
 <!DOCTYPE>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/registrostyles.css" />
-	<script type="text/javascript" href="js/prefixfree.min.js"></script>
-	<script type="text/javascript" src="js/validatecheck.js"></script>
-	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/registrostyles.css" />
+    <script type="text/javascript" href="js/prefixfree.min.js"></script>
+    <script type="text/javascript" src="js/validatecheck.js"></script>
+
 </head>
+
 <body>
-	<header id="header" class="">
-				 <div class="header">	
-	                 <div class="boxleft">
-						 <div class="imagenheader"></div>  
-				   	</div>	
-			   	<img class="image" src="images/logoheader.png">		  
-                <div class="separator"></div>
-			    <div class="boxright"> 
-			       <div class="colorright">
-			       	</div>
-
-			       </div>		    
-				</div> 
-		</div>
-
-		
-	</header>
-
-	<content>
-		<div class="subcontent">
-
-			<img class="imgcenter" src="images/logoheader.png">
-
-
-		<div class="formulario">
-			<div class="formu">
-			  <form class="form">
-			  	<div class="inpu">
-			       <img class="icont" src="icons/user.png"> <input type="Email" id="fname" name="firstname" placeholder="Usuario" required="required">
+    <header id="header" class="">
+        <div class="header">
+            <div class="boxleft">
+                <div class="imagenheader"></div>
+            </div>
+            <img class="image" src="images/logoheader.png">
+            <div class="separator"></div>
+            <div class="boxright">
+                <div class="colorright">
                 </div>
-			    <br>
-			    <br>
-			    <br>
-                <div class="inpu">
-			       <img class="icont" src="icons/lock.png"> <input type="Password" id="lname" name="lastname" placeholder="Contraseña" required="required">
+
+            </div>
+        </div>
+        </div>
+
+    </header>
+
+    <content>
+        <div class="subcontent">
+
+            <img class="imgcenter" src="images/logoheader.png">
+
+            <div class="formulario">
+                <div class="formu">
+                    <form class="form">
+                        <div class="inpu">
+                            <img class="icont" src="icons/user.png">
+                            <input type="Email" id="fname" name="firstname" placeholder="Usuario" required="required">
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="inpu">
+                            <img class="icont" src="icons/lock.png">
+                            <input type="Password" id="lname" name="lastname" placeholder="Contraseña" required="required">
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="inpu">
+                            <img class="icont" src="icons/manoclick.png">
+                            <input type="text" id="registrarse" name="registrarse" placeholder="Registrate como" required="required">
+                        </div>
+                        <div class="cheking">
+                            <div class="check" id="check">
+                                <input id="victima" type="radio" checked="checked" onclick="myFunction()" value="Victima" name="gender">
+                                <label class="victima">Victima</label>
+                            </div>
+                            <br>
+                            <div class="check">
+                                <input id="ayudante" type="radio" checked="checked" onclick="myFunction()" value="Ayudante" name="gender">
+                                <label class="ayudante">Ayudante</label>
+                            </div>
+                            <br>
+                            <div class="check">
+                                <input id="visitante" type="radio" checked="checked" onclick="myFunction()" value="Visitante" name="gender">
+                                <label class="visitante">Visitante</label>
+                            </div>
+                        </div>
+                        <br>
+
+                        <button class="btn" type="submit" formaction="perfil.html">REGISTRARME</button>
                 </div>
-			    <br>
-			    <br>
-			    <br>
-           <div class="inpu">
-			    <img class="icont" src="icons/manoclick.png"> <input type="text" id="registrarse" name="registrarse" placeholder="Registrate como" required="required">
-           </div>          
-                 <div class="cheking">
-						<div class="check" id="check">
-							<input id="victima" type="radio" checked="checked" onclick="myFunction()" value="Victima" name="gender">
-							<label class="victima">Victima</label>
-						</div>
-						<br>
-						<div class="check">
-							<input id="ayudante" type="radio" checked="checked" onclick="myFunction()" value="Ayudante" name="gender">
-							<label class="ayudante">Ayudante</label>
-						</div>
-						<br>
-					    <div class="check">
-							<input id="visitante" type="radio" checked="checked" onclick="myFunction()" value="Visitante" name="gender">
-							<label class="visitante">Visitante</label>
-						</div>
-					</div>
-			      <br>
-			  
-			    <button class="btn" type="submit" formaction="perfil.html">REGISTRARME</button> 
-			</div>
-		</div>
+            </div>
 
-		</div>
+        </div>
 
-		
-	</content>
-	
+    </content>
+
 </body>
+
 </html>
