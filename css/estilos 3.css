@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+.header{
+	display: flex;
+    height: 100px;
+    width: auto;
+    position:relative;
+    overflow: hidden;
+	
+}
+
+.boxleft{
+    width: 35%;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+.image{
+	position: fixed;
+    width: 30%;
+    margin: -2%;
+    left: 3%;
+    top: -3%;
+}
+.imagenheader{
+     display: flex; 
+    background-color: #656566;
+    transform-origin: right;
+    transform: skewX(-39deg);
+    -webkit-transform-origin-y: top;
+    width: 100%;
+}
+
+.separator {
+    position: relative;
+    height: 60 px;
+    width: 4px;
+    background-color: #1515B7;
+    transform: scale(1) rotate(125deg) translate(-20px, -20px) skew(86deg, 88deg);
+
+
+ 
+  }
+
+.boxright{
+    display: flex;
+    width: 75%;
+    position: relative;
+
+
+} 
+
+.colorright{
+    background-color: #020228;
+    transform-origin: right;
+    transform: skewX(-39deg);
+    -webkit-transform-origin-y: bottom;
+    width: 100%;
+}
+.reporte{
+    background-color: #0000FF;
+    border: none;
+    height: 10%;
+    font-size: 9pt;
+    padding: 9px;
+    color: white;
+    position: relative;
+    margin: 3%;
+    top: 10%;
+}
+.publicar{
+    background-color: #0000FF;
+    border: none;
+    height: 10%;
+    font-size: 9pt;
+    padding: 9px;
+    color: white;
+    position: relative;
+    margin: 3%;
+    top: 10%;
+}
+.cuerpo{
+	background-color: white;
+	width: 1200px;
+	height: auto;
+	margin: 2px;
+	float: left
+}
+.aside{
+	background-color: white;
+	width: 350px;
+	height: 100%;
+	display: inline-block;
+	margin: 5px;
+	text-align: center;
+	padding: 10px;
+	float:left;
+	
+	
+	
+}
+.section{
+	background-color: gray;
+	width: 650;
+	height: 100%px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	align-items: center;
+	float: right;
+}
+.editar{
+    background-color: #0000FF;
+    border: none;
+    height: 10%;
+    font-size: 9pt;
+    padding: 9px;
+    color: white;
+    position: relative;
+    margin: 3%;
+    top: 10%;
+}
+.comentar{
+    background-color: #0000FF;
+    border: none;
+    height: 10%;
+    font-size: 9pt;
+    padding: 9px;
+    color: white;
+    position: relative;
+    margin: 3%;
+    top: 10%;
+}
+

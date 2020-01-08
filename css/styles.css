@@ -1,0 +1,198 @@
+/**/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	display: flex;
+    height: 100px;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+	
+}
+
+.boxleft{
+    width: 50%;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+.image{
+    position: fixed;
+    width: 30%;
+    margin: -1%;
+    left: 3%;
+    top: -3%;
+}
+.imagenheader{
+    display: flex;
+    background-color: #656566;
+    transform-origin: right;
+    transform: skewX(-33deg);
+    -webkit-transform-origin-y: top;
+    width: 100%;
+    position: relative;
+    right: -1px;
+    left: 7px;
+}
+
+.separator {
+    position: relative;
+    height: 42px;
+    width: 2px;
+    background-color: #1515B7;
+    transform: scale(0.8) rotate(120deg) translate(161px, -16px) skew(86deg, 88deg);
+    left: -7px;
+
+
+ 
+  }
+
+.boxright{
+    display: flex;
+    width: 50%;
+    position: relative;
+
+
+} 
+
+.colorright{
+    background-color: #020228;
+    transform-origin: right;
+    transform: skewX(-34deg) skewX(-1deg);
+    -webkit-transform-origin-y: bottom;
+    width: 100%;
+    right: 9px;
+    position: relative;
+}
+
+.center{
+
+    display: flex;
+    height: auto;
+    width: auto;
+    position: relative;
+
+}
+
+
+
+.box1{
+   
+    width: 50%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contentbox1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 556px;
+    width: 100%;
+    background-color: #595971;
+
+
+}
+ .button{
+
+    background-color:#1515B7;
+    border: none;
+    font-size: 9pt;
+    padding: 9px;
+    color: white;
+
+}
+
+.formu{
+
+    position: relative;
+    width: 50%;
+    margin-top: 0px;
+    left: -100px;
+
+}
+
+.imagencenter{
+        width: 100%;
+}
+
+.box2{
+   
+    background-color: white;
+     width: 50%;
+     position: relative;
+
+}
+.inputbyicon{
+
+   padding-left: 31px;
+   height: 24px;
+   width: 224px;
+}
+
+
+.iconandinput{
+display: flex;
+
+}
+.iconlock{
+display: flex;
+}
+.iconuser{
+    width: 4%;
+    left: 19px;
+    position: relative;
+}
+
+.iconlock{
+    width: 5%;
+    left: 19px;
+    position: relative;
+    height: 15px;
+    top: 5px;
+}
+
+h2 {
+    color: white;
+    font-size: 15pt;
+    font-family: Myriad Pro;
+}
+hr{
+    height: 51%;
+    position: relative;
+    left: -12%;
+}
+.register{
+    background-color: #0000FF;
+    border: none;
+    height: 14%;
+    font-size: 9pt;
+    padding: 9px;
+    color: white;
+    position: relative;
+    top: 10%;
+}
+
+.subcontentbox1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 8%;
+    margin: 2%;
+    padding: 1%;
+    top: 25%;
+}
+.subbox2{
+    position: relative;
+    margin: 4%;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    top: 17%;
+}

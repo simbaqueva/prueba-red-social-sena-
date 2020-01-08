@@ -1,0 +1,456 @@
+/**/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	display: flex;
+    height: 100px;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+	
+}
+
+.boxleft{
+    width: 34%;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+.image{
+    position: absolute;
+    width: 27%;
+    margin: -1%;
+    left: 3%;
+    top:-3%;
+}
+.imagenheader{
+    display: flex;
+    background-color: #656566;
+    transform-origin: right;
+    transform: skewX(-33deg);
+    -webkit-transform-origin-y: top;
+    width: 100%;
+    position: relative;
+    right: -1px;
+    left: 7px;
+}
+
+.separator {
+    position: relative;
+    height: 42px;
+    width: 2px;
+    background-color: #1515B7;
+    transform: scale(0.8) rotate(120deg) translate(161px, -16px) skew(86deg, 88deg);
+    left: -7px;
+
+
+ 
+  }
+
+.boxright{
+    display: flex;
+    width: 66%;
+    position: relative;
+
+
+} 
+
+.colorright{
+    background-color: #020228;
+    transform-origin: right;
+    transform: skewX(-34deg) skewX(-1deg);
+    -webkit-transform-origin-y: bottom;
+    width: 100%;
+    right: 9px;
+    position: relative;
+}
+.menuicons{
+
+    display: flex;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    left: -36px;
+}
+
+.icont{
+
+    transform: skewX(34deg);
+    top: 33px;
+    position: relative;
+}
+
+.testimonio{
+    position: relative;
+    left: 16px;
+    color: white;
+    font-family: Myriad Pro;
+    font-size: 13pt;
+    transform: skewX(26deg);
+    top: 74px;
+}
+
+.iconp{
+    transform: skewX(34deg);
+    top: 52px;
+    position: relative;
+    left: 14px;
+    height: 1%;
+}
+
+.publicaciones{
+    position: relative;
+    left: 37px;
+    color: white;
+    font-family: Myriad Pro;
+    font-size: 13pt;
+    transform: skewX(26deg);
+    top: 74px;
+}
+
+.iconpe{
+
+    transform: skewX(34deg);
+    top: 58px;
+    position: relative;
+    left: 41px;
+    height: 1%;
+}
+
+.perfil{
+    position: relative;
+    left: 65px;
+    color: white;
+    font-family: Myriad Pro;
+    font-size: 13pt;
+    transform: skewX(26deg);
+    top: 74px;
+}
+
+
+.iconco{
+
+    transform: skewX(34deg);
+    top: 58px;
+    position: relative;
+    left: 61px;
+    height: 1%;
+}
+
+.contactos{
+    position: relative;
+    left: 86px;
+    color: white;
+    font-family: Myriad Pro;
+    font-size: 13pt;
+    transform: skewX(26deg);
+    top: 74px;
+}
+
+.iconca{
+    transform: skewX(34deg);
+    top: 58px;
+    position: relative;
+    left: 81px;
+    height: 1%;
+}
+
+.casos{
+    position: relative;
+    left: 105px;
+    color: white;
+    font-family: Myriad Pro;
+    font-size: 13pt;
+    transform: skewX(26deg);
+    top: 74px;
+}
+
+.search{
+
+    transform: skewX(34deg);
+    position: relative;
+    background-color: #020228;
+    border: none;
+    top: 9px;
+    right: -23px;
+
+}
+
+.content{
+
+    display: flex;
+    max-height: 600px;
+}
+
+
+aside{
+    
+    position: relative;
+    width: 16%;
+    border: solid 1px;
+    float: left;
+    height: 554px;
+}
+
+.infoperfil{
+    text-align: center;
+    top: -22px;
+    position: relative;
+}
+
+.profileimg{
+
+    position: relative;
+    top: 25px;
+    left: 0%;
+}
+
+.notification{
+
+    left: 28%;
+    position: relative;
+    top: 39px;
+}
+
+.pepito{
+    text-align: center;
+    font-family: sans-serif;
+}
+.visitante{
+
+    font-family: Myriad Pro;
+    font-weight: lighter;
+    text-align: left;
+    position: relative;
+    left: 35px;
+}
+
+.buttonrepor{
+    
+    color: white;
+    background-color: #1515B7;
+    border: none;
+    width: 66%;
+    position: relative;
+    padding: 4%;
+    border-radius: 9px;
+
+}
+
+.noticias{
+
+    width: 100%;
+    position: relative;
+    display: block;
+    overflow: scroll;
+    height: 555px;
+}
+
+.public{
+
+    background-color: white;
+    position: relative;
+    width: 100%;
+}
+
+.containervid{
+
+    background-color: #9a9898;
+    width: 99%;
+    position: relative;
+    height: 500px;
+    top: 8px;
+    left: 11px;
+    display: flex;
+
+
+}
+.videodim{
+
+    width: 93%;
+    height: 88%;
+    position: relative;
+    left: 19px;
+    top: 19px;
+
+}
+
+.videocon{
+    background-color: #716e6e;
+    width: 65%;
+    position: relative;
+    height: 343px;
+    top: 21px;
+    left: 38px;
+    float: left;
+
+}
+
+.iconizq{
+
+    position: relative;
+    height: 17%;
+    top: 20px;
+    left: 43px;
+}
+
+.h1ay{
+
+    position: relative;
+    text-align: center;
+    top: 59px;
+    right: -46px;
+    font-size: 16pt;
+
+}
+
+.h2ay{
+
+    position: relative;
+    text-align: center;
+    top: 63px;
+    right: -51px;
+    font-size: 13pt;
+    font-weight: lighter;
+}
+
+.infoizq{
+
+    width: 28%;
+    position: relative;
+}
+.aligninfoizq{
+
+display: flex;
+}
+
+.categoria{
+
+    left: 58px;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.descri{
+
+    font-weight: lighter;
+    font-size: 10pt;
+    left: 42px;
+    position: relative;
+}
+
+.compartir{
+
+    text-align: center;
+    position: relative;
+    font-weight: 100;
+    left: -50px;
+    color: white;
+    background-color: #1515B7;
+    border: none;
+    width: 38%;
+    position: relative;
+    padding: 2%;
+    font-size: 18pt;
+    left: 60px;
+
+}
+
+.buttoncoment{
+
+    color: white;
+    background-color: #1515B7;
+    border: none;
+    width: 38%;
+    position: relative;
+    padding: 2%;
+    font-size: 18pt;
+    left: 60px;
+
+}
+
+.inputcoment{
+
+    top: 58px;
+    position: relative;
+    width: 100%;
+    height: 55px;
+}
+.chating{
+
+
+}
+#buttonchat{
+
+    color: white;
+    background-color: #1515B7;
+    border: none;
+    width: 13%;
+    position: fixed;
+    padding: 1%;
+    font-size: 18pt;
+    left: 1133px;
+    top: 584px;
+    border-radius: 22px;
+}
+
+
+#overlay{
+    position: fixed;
+    display: none;
+    width: 14%;
+    left: 1118px;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    top: 283px;
+}
+
+.subchat {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.subchat::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.subchat img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.subchat img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
